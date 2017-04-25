@@ -1,0 +1,26 @@
+def both_ends(s):
+    # +++your code here+++
+    return "".join((s[:2], s[-2:])) if len(s) > 2 else ''
+
+# Provided simple test() function used in main() to print
+# what each function returns what it's supposed to return.
+def test(got, expected):
+    if got == expected:
+        prefix = ' OK '
+    else:
+        prefix = '  X '
+    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
+
+# Provided main() calls the above functions with interesting inputs,
+# using test() to check if each result is correct or not.
+def main():
+    print
+    print('both_ends')
+    test(both_ends('spring'), 'spng')
+    test(both_ends('Hello'), 'Helo')
+    test(both_ends('a'), '')
+    test(both_ends('xyz'), 'xyyz')
+
+# Standard boilerplate to call the main() function.
+if __name__ == '__main__':
+    main()
