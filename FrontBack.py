@@ -20,7 +20,8 @@ def main():
     test(front_back('abcde', 'xyz'), 'abcxydez')
     test(front_back('Kitten', 'Donut'), 'KitDontenut')
     test(front_back('Caradenada', 'Dalmata'), 'CaradDalmenadaata')
-
+    test(front_back('Pizza', 'Party'), 'PizParzaty')
+    
 if __name__ == '__main__':
     main()
 
