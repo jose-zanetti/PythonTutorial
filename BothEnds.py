@@ -23,6 +23,7 @@ def main():
     test(both_ends('spring'), 'spng')
     test(both_ends('Hello'), 'Helo')
     test(both_ends('a'), '')
+    test(both_ends('Goodbye'), 'Goye')
     test(both_ends('xyz'), 'xyyz')
 
 # Standard boilerplate to call the main() function.
