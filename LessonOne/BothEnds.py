@@ -25,6 +25,7 @@ def main():
     test(both_ends('a'), '')
     test(both_ends('Goodbye'), 'Goye')
     test(both_ends('xyz'), 'xyyz')
+    test(both_ends('LaGracia'), 'Laia')
 
 # Standard boilerplate to call the main() function.
 if __name__ == '__main__':
