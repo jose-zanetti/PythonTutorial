@@ -8,7 +8,7 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = '  X '
-    print('%s got: %s Expected: %s' % (prefix, repr(got), repr(expected)))
+    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
 
 def main():
     print('linear_merge')
